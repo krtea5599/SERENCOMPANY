@@ -65,14 +65,16 @@ const Contact: React.FC = () => {
                 SEREN
                 </span>
           </h2>
-          <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-1 leading-relaxed">
-            세렌과 함께 브랜드의 확장을 시작해 보세요.
+         <p className="text-lg md:text-xl font-medium leading-relaxed text-black/80 tracking-tight mt-6">
+            세렌과 함께 아이디어를 구조로,<br />
+            구조를 브랜드로 확장하고 싶은 분들의 연락을 기다립니다.<br />
+          
           </p>
         </div>
         
         <form className="flex flex-col space-y-8 w-full" onSubmit={handleSubmit}>
           <div className="flex flex-col group">
-            <label className="text-[10px] font-bold uppercase mb-2 group-focus-within:opacity-100 opacity-60 transition-opacity">성함*</label>
+            <label className="text-[10px] font-bold uppercase mb-2 group-focus-within:opacity-100 opacity-60 transition-opacity">이름*</label>
             <input 
               required
               name="name"
@@ -80,11 +82,11 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               type="text" 
               className="bg-transparent border-b border-black py-2 outline-none text-sm font-medium"
-              placeholder="성함을 입력해주세요"
+              placeholder="이름을 입력해주세요"
             />
           </div>
           <div className="flex flex-col group">
-            <label className="text-[10px] font-bold uppercase mb-2 group-focus-within:opacity-100 opacity-60 transition-opacity">연락처*</label>
+            <label className="text-[10px] font-bold uppercase mb-2 group-focus-within:opacity-100 opacity-60 transition-opacity">전화번호*</label>
             <input 
               required
               name="contact"
@@ -92,11 +94,11 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               type="text" 
               className="bg-transparent border-b border-black py-2 outline-none text-sm font-medium"
-              placeholder="이메일 또는 연락처를 입력해주세요"
+              placeholder="연락 가능한 번호를 입력해주세요"
             />
           </div>
           <div className="flex flex-col group">
-            <label className="text-[10px] font-bold uppercase mb-2 group-focus-within:opacity-100 opacity-60 transition-opacity">문의하기*</label>
+            <label className="text-[10px] font-bold uppercase mb-2 group-focus-within:opacity-100 opacity-60 transition-opacity">문의 내용*</label>
             <textarea 
               required
               name="message"
@@ -104,9 +106,24 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               rows={4}
               className="bg-transparent border-b border-black py-2 outline-none text-sm font-medium resize-none"
-              placeholder="문의 내용 작성해주세요"
+              placeholder="문의 내용을 간단히 남겨주세요"
             />
           </div>
+
+<div className="flex flex-col gap-4 mt-8 mb-8">
+  {/* 필수 동의 항목 */}
+  <label className="flex items-start gap-3 cursor-pointer group">
+    <input 
+      type="checkbox" 
+      required
+      name="agreement"
+      className="w-5 h-5 mt-1 border-2 border-black appearance-none checked:bg-[#1040DD] checked:border-[#1040DD] transition-all duration-200 cursor-pointer relative checked:after:content-['✓'] checked:after:absolute checked:after:text-white checked:after:text-xs checked:after:font-bold checked:after:left-1/2 checked:after:top-1/2 checked:after:-translate-x-1/2 checked:after:-translate-y-1/2"
+    />
+    <span className="text-sm md:text-base text-black/80 group-hover:text-black">
+      개인정보 수집 및 이용에 동의합니다. 문의 응대 및 세렌의 서비스·콘텐츠 안내를 위한 마케팅 정보 제공에 활용될 수 있습니다. <span className="text-[#1040DD] font-bold">(필수)</span>
+    </span>
+  </label>
+</div>
           <div className="flex flex-col items-center gap-6 w-full">
             <button 
               type="submit"
@@ -117,13 +134,14 @@ const Contact: React.FC = () => {
                 : 'bg-black text-white hover:bg-white hover:text-black w-full md:w-auto' // 모바일에선 꽉 차게, 데스크톱에선 적당하게
               }`}
             >
-              {status === 'loading' ? 'Sending...' : '문의합니다'}
+              {status === 'loading' ? 'Sending...' : '문의 보내기'}
+
             </button>
             
             {status === 'success' && (
               <p className="text-sm font-bold text-green-600 uppercase tracking-wider animate-pulse">
                 문의해 주셔서 감사합니다.<br />
-                남겨주신 내용을 확인한 후, 순차적으로 연락드리겠습니다.<br />
+                남겨주신 내용을 바탕으로 세렌이 연락드리겠습니다.<br />
                 세렌에 관심 가져주셔서 감사합니다.<br />
               </p>
             )}
@@ -140,3 +158,4 @@ const Contact: React.FC = () => {
 };
 
 export default Contact;
+

@@ -13,15 +13,12 @@ const Hero: React.FC = () => {
         {/* Introduction Line */}
         <div className="mt-8 mb-12 animate-fadeIn">
           <p className="text-lg md:text-2xl font-normal tracking-tight text-black/80 text-center leading-relaxed">
-            안녕하세요.<br />
-            <span className="font-black text-black/90">AI</span>와 <span className="font-black text-black/90">콘텐츠</span>, 
-            <span className="font-black text-black/90">교육</span>과 <span className="font-black text-black/90">IP</span>를 연결하여<br />
-            하나의 <span className="font-black text-black/90">브랜드 구조</span>를 <span className="font-black text-black/90">설계</span>하는<br />
-            <span className="font-black text-[#1040DD]">1인 창작자 이정한</span>입니다.<br />
+            <span className="font-black text-black/90">세렌</span>은 AI를 도구가 아닌 <span className="font-black text-black/90">구조 설계의 언어</span>로 사용하는 브랜드입니다.<br />
+            <span className="font-black text-black/90">아이디어</span>를 떠올리는 데서 멈추지 않고,<br />
+            <span className="font-black text-black/90">실행 가능한 시스템</span>으로 만들고 <span className="font-black text-black/90">지속 가능한 사업 구조</span>하는로 연결합니다.<br />
             <br />
-            <span className="font-semibold text-black/90">아이디어</span>를 실행 가능한 <span className="font-semibold text-black/90">시스템</span>으로 만들고,<br />
-            그것을 다시 <span className="font-semibold text-black/90">콘텐츠</span>와 <span className="font-semibold text-black/90">사업</span>으로 확장합니다.<br />
-            지금부터, <span className="font-black text-[#1040DD]">세렌</span>을 소개합니다.
+            혼자서도<span className="font-semibold text-black/90">브랜드</span>를 만들 수 있는 시대<br />
+            <span className="font-black text-[#1040DD]">세렌</span>은 그 방법을  <span className="font-black text-black/90">직접 설계</span>하고  <span className="font-black text-black/90">실험</span>합니다.
           </p>
         </div>
       </div>

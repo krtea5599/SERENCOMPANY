@@ -31,7 +31,7 @@ const App: React.FC = () => {
                     VISION
                   </span>
                  <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-1 leading-relaxed">
-                 세렌이 설계하고 실행해 온 프로젝트 구조를 소개합니다.
+                 _____
                  </p>
                 </h2>
               </div>
@@ -43,7 +43,7 @@ const App: React.FC = () => {
                 <img 
                   src={VISION_IMAGE} 
                   alt="Vision Visual" 
-                  className="w-full h-full object-cover transition-all duration-1000 scale-105 group-hover:scale-100"
+                  className="w-full h-full object-cover transition-all duration-1000 scale-100 group-hover:scale-110"
                 />
               </div>
             </div>
@@ -51,11 +51,15 @@ const App: React.FC = () => {
             {/* Right: Text Description */}
             <div className="md:col-span-4 flex flex-col order-2 md:order-3">
             <p className="text-lg md:text-2xl font-normal leading-relaxed text-black/80 tracking-tight">
-            <span className="font-black text-[#1040DD]">세렌</span>은 
-            <span className="font-semibold text-black/90"> AI</span>를 활용해 아이디어를 
-            <span className="font-semibold text-black/90"> 실행 가능한 구조</span>로 만들고,<br className="hidden md:block" />
-            그 구조를 <span className="font-bold text-black/90">콘텐츠·교육·IP·사업</span>으로 확장하는 브랜드입니다.<br /><br className="md:hidden" />
-            우리는 혼자서도 <span className="font-black text-black/90">지속 가능한 창작</span>과 <span className="font-black text-black/90">성장</span>을 가능하게 하는 방법을 설계합니다.
+            <span className="font-black text-[#1040DD]">세렌</span>은 개인의  <span className="font-semibold text-black/90">성장</span>이 곧 
+            <span className="font-semibold text-black/90">사회</span>와 <span className="font-semibold text-black/90">교육</span>,  
+            <span className="font-semibold text-black/90">산업</span>의  <span className="font-semibold text-black/90">확장</span>으로 이어진닫고 믿습니다.<br />
+            <br />
+            우리는 AI를 활용해 <span className="font-semibold text-black/90">아이디어</span>가 <span className="font-semibold text-black/90">콘텐츠</span>가 되고, 
+            콘텐츠가 <span className="font-semibold text-black/90">교육과 지식재산</span>으로 확장되며,
+            다시 <span className="font-semibold text-black/90">하나의 브랜드</span>가 되는 흐름을 설계합니다.<br />
+            <br />
+            세렌의 <span className="font-black text-[#1040DD]">비전</span>은 <span className="font-semibold text-black/90">혼자서도 지속 가능한 창작과 성장이 가능한 구조</span>를 만드는 것입니다.
             </p>
             </div>
           </div>
@@ -63,7 +67,20 @@ const App: React.FC = () => {
 
         {/* Work Section (ID: work) */}
         <section id="work" className="flex flex-col">
-          <div className="px-6 md:px-12 pt-12 pb-5 border-y border-black flex justify-end items-end bg-[#E0D7FF]">
+          <div className="px-6 md:px-12 pt-16 pb-12 border-y border-black flex flex-col md:flex-row justify-between items-end bg-[#E0D7FF] gap-5">
+           <div className="order-2 md:order-1 w-full md:w-auto text-right md:text-left">
+            <p className="text-lg md:text-2xl font-normal leading-relaxed text-black/80 tracking-tight">
+             <span className="font-black text-[#1040DD]">세렌</span>의 <span className="font-black text-[#1040DD]">프로젝트</span>는<br />
+              모두 하나의 <span className="font-semibold text-black/90">질문</span>에서 출발합니다.<br />
+              <br />
+              <span className="font-black text-[#1040DD]">“이 아이디어는 어떤 구조로 확장될 수 있는가?”</span><br />
+              <br />
+              <span className="font-semibold text-black/90">출판, 교육, 기술, 지역, 브랜드 프로젝트</span>는 각각 다른 형태를 띠고 있지만<br />
+              모두 <span className="font-semibold text-black/90">같은 구조적 사고</span> 위에서 <span className="font-semibold text-black/90">설계</span>되었습니다.<br />
+            </p>
+          </div>
+
+           <div className="order-1 md:order-2 w-full md:w-auto flex flex-col items-end"> 
              <h2 className="relative z-10 flex flex-col items-end w-full leading-none tracking-tighter uppercase font-black text-right">
                   <span className="text-6xl md:text-[90px] text-black mb-1">
                     SEREN
@@ -72,10 +89,11 @@ const App: React.FC = () => {
                     Project
                   </span>
                   <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-6 leading-relaxed self-end">
-                 세렌에서 진행하고 있는 프로젝트를 소개합니다
-                 </p>
-                </h2>
-          </div>
+                  _____
+                  </p>
+              </h2>
+            </div>
+           </div>
           
           {PILLARS.map((project, index) => (
             <ProjectItem key={project.id} project={project} index={index} />
