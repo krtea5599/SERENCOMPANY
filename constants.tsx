@@ -59,7 +59,7 @@ export const PILLARS: Project[] = [
       "현무암 창의융합 STEAM 교육프로그램 개발 / 교구재 및 동화, 굿즈 라인업 확장",
       "마을 소득 모델 및 로컬 브랜딩 전략 수립"
     ],
-    image: "https://i.ifh.cc/qrwYS7.jpg",
+    image: "https://i.ifh.cc/b2DYTd.jpg",
     tags: ["Local Brand", "Character IP", "Jeju"]
   },
   {
