@@ -9,7 +9,7 @@ import { PILLARS, VISION_IMAGE } from './constants.tsx';
 
 const App: React.FC = () => {
   return (
-    <div className="relative min-h-screen selection:bg-black selection:text-[#E0D7FF]">
+    <div className="relative min-h-screen selection:bg-black selection:text-[#F9F9F9]">
       <Navbar />
       
       <main>
@@ -17,7 +17,7 @@ const App: React.FC = () => {
         <Hero />
         
         {/* Vision Section (ID: vision) */}
-        <section id="vision" className="px-6 md:px-12 pt-12 pb-12 border-t border-black bg-[#E0D7FF]">
+        <section id="vision" className="px-6 md:px-12 pt-12 pb-12 border-t border-black bg-[#F9F9F9]">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-8 items-center">
             
             {/* Left: Graphic Typography */}
@@ -41,9 +41,9 @@ const App: React.FC = () => {
             <div className="md:col-span-4 order-3 md:order-2">
               <div className="relative aspect-[3/2] overflow-hidden border border-black group">
                 <img 
-                  src={VISION_IMAGE} 
+                  src="https://i.ifh.cc/6FrG7b.jpg"
                   alt="Vision Visual" 
-                  className="w-full h-full object-cover transition-all duration-1000 scale-100 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-all duration-1000 scale-10 group-hover:scale-100"
                 />
               </div>
             </div>
@@ -67,7 +67,7 @@ const App: React.FC = () => {
 
         {/* Work Section (ID: work) */}
         <section id="work" className="flex flex-col">
-          <div className="px-6 md:px-12 pt-16 pb-12 border-y border-black flex flex-col md:flex-row justify-between items-end bg-[#E0D7FF] gap-5">
+          <div className="px-6 md:px-12 pt-16 pb-12 border-y border-black flex flex-col md:flex-row justify-between items-end bg-[#F9F9F9] gap-5">
            <div className="order-2 md:order-1 w-full md:w-auto text-right md:text-left">
             <p className="text-lg md:text-2xl font-normal leading-relaxed text-black/80 tracking-tight">
              <span className="font-black text-[#1040DD]">세렌</span>의 <span className="font-black text-[#1040DD]">프로젝트</span>는<br />

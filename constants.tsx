@@ -16,7 +16,7 @@ export const PILLARS: Project[] = [
       "《AI특허출원혁명》 시리즈 (1~3권)",
       "《전자책 쓰는 전자책(전자전)》 워크북 및 퍼널 연계"
     ],
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop",
+    image: "https://i.ifh.cc/5hNobA.jpg",
     tags: ["AI Publishing", "eBook", "ISBN System"]
   },
   {
@@ -30,7 +30,7 @@ export const PILLARS: Project[] = [
       "AI 기반 명세서 및 청구항 자동 생성 기능 개발",
       "가출원(임시출원) 전략을 통한 빠른 아이디어 선점 지원"
     ],
-    image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=2070&auto=format&fit=crop",
+    image: "https://i.ifh.cc/lcmmLb.jpg",
     tags: ["Patent AI", "KIPRIS API", "Legal Tech"]
   },
   {
@@ -44,7 +44,7 @@ export const PILLARS: Project[] = [
       "'나만의 아이디어, 첫 특허 캠페인' 진행 예정",
       "전자책-강의-워크북으로 이어지는 체계적인 교육 시스템"
     ],
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop",
+    image: "https://i.ifh.cc/RlVkBz.jpg",
     tags: ["Education", "Parenting", "Workshops"]
   },
   {
@@ -59,7 +59,7 @@ export const PILLARS: Project[] = [
       "현무암 창의융합 STEAM 교육프로그램 개발 / 교구재 및 동화, 굿즈 라인업 확장",
       "마을 소득 모델 및 로컬 브랜딩 전략 수립"
     ],
-    image: "https://images.unsplash.com/photo-1590422114321-700681a967f6?q=80&w=2070&auto=format&fit=crop",
+    image: "https://i.ifh.cc/qrwYS7.jpg",
     tags: ["Local Brand", "Character IP", "Jeju"]
   },
   {
@@ -73,7 +73,7 @@ export const PILLARS: Project[] = [
       "자체 개발 '기능성 청소 장갑' 개발 중 (특허 연계)",
       "호텔식 관리 및 수납정리 서비스 전문 노하우 자산화",
     ],
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=2071&auto=format&fit=crop",
+    image: "https://i.ifh.cc/44Z3zj.jpg",
     tags: ["Lifestyle", "Brand Goods", "Homecare"]
   }
 ];

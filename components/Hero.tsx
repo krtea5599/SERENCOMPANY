@@ -2,16 +2,16 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="min-h-screen bg-[#E0D7FF] flex flex-col items-center pt-24 pb-20 px-6 overflow-hidden relative">
+    <section id="home" className="min-h-screen bg-[#F9F9F9] flex flex-col items-center pt-24 pb-20 px-6 overflow-hidden relative">
       {/* Header Typography */}
       <div className="w-full max-w-7xl flex flex-col items-center text-center">
-        <h1 className="flex flex-col items-center leading-[0.85] tracking-tighter uppercase font-black">
+        <h1 className="flex flex-col items-center leading-[0.85] tracking-tighter uppercase font-black animate-fadeIn">
           <span className="text-6xl md:text-[140px] text-black">SEREN</span>
           <span className="text-6xl md:text-[140px] text-outline">COMPANY</span>
         </h1>
         
         {/* Introduction Line */}
-        <div className="mt-8 mb-12 animate-fadeIn">
+        <div className="mt-8 mb-12 ">
           <p className="text-lg md:text-2xl font-normal tracking-tight text-black/80 text-center leading-relaxed">
             <span className="font-black text-black/90">세렌</span>은 AI를 도구가 아닌 <span className="font-black text-black/90">구조 설계의 언어</span>로 사용하는 브랜드입니다.<br />
             <span className="font-black text-black/90">아이디어</span>를 떠올리는 데서 멈추지 않고,<br />
@@ -29,8 +29,15 @@ const Hero: React.FC = () => {
           <img 
             src="https://raw.githubusercontent.com/krtea5599/SEREN-Portfolio/91d191264acf69070659dafe564266d495643ead/%EC%9D%B4%EC%A0%95%ED%95%9C%20%ED%94%84%EB%A1%9C%ED%95%84.jpg" 
             alt="주식회사 세렌" 
-            className="w-full h-full object-contain object-top animate-fadeIn"
+            className="w-full h-full object-contain object-top"
           />               
+        </div>
+        <div className="w-full mt-4 flex justify-end px-2"> 
+           <p className="text-[10px] md:text-xs font-bold uppercase tracking-widest text-black/80 text-right leading-relaxed">
+           <span className="opacity-65 font-medium text-[9px] md:text-[10px]">
+           Founder & Brand Architect</span><br />
+           Junghan Lee
+          </p>
         </div>
       </div>
 
