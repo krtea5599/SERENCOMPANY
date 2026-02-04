@@ -75,7 +75,8 @@ const App: React.FC = () => {
               <br />
               <span className="font-black text-[#1040DD]">“이 아이디어는 어떤 구조로 확장될 수 있는가?”</span><br />
               <br />
-              <span className="font-semibold text-black/90">출판, 교육, 기술, 지역, 브랜드 프로젝트</span>는 각각 다른 형태를 띠고 있지만<br />
+              <span className="font-semibold text-black/90">출판, 교육, 기술, 지역, 브랜드 프로젝트</span>는 각각<br />
+              다른 형태를 띠고 있지만<br />
               모두 <span className="font-semibold text-black/90">같은 구조적 사고</span> 위에서 <span className="font-semibold text-black/90">설계</span>되었습니다.<br />
             </p>
           </div>
