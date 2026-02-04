@@ -111,4 +111,17 @@ const App: React.FC = () => {
   );
 };
 
+<style>{`
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1.5px #000000; /* 보라색 대신 확실한 검정색 테두리 */
+  }
+
+  @media (max-width: 768px) {
+    .text-outline {
+      -webkit-text-stroke: 1px #000000;
+    }
+  }
+`}</style>
+
 export default App;

@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
           <span className="text-[10px] md:text-xs font-black uppercase tracking-widest text-black group-hover:opacity-50 transition-opacity">
             {isOpen ? 'CLOSE' : 'MENU'}
           </span>
-          <div className="w-8 h-8 md:w-10 md:h-10 border border-black flex items-center justify-center overflow-hidden">
+          <div className="w-8 h-8 md:w-10 md:h-10 border border-black flex items-center justify-center overflow-hidden bg-white">
              <div className={`w-full h-full bg-[#FFFFFF] transition-transform duration-500 ${isOpen ? 'translate-y-0' : 'translate-y-full'}`}></div>
           </div>
         </button>
