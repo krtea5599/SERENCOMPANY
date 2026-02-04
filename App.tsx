@@ -51,15 +51,12 @@ const App: React.FC = () => {
             {/* Right: Text Description */}
             <div className="md:col-span-4 flex flex-col order-2 md:order-3">
             <p className="text-lg md:text-2xl font-normal leading-relaxed text-black/80 tracking-tight">
-            <span className="font-black text-[#1040DD]">세렌</span>은 개인의  <span className="font-semibold text-black/90">성장</span>이 곧 
-            <span className="font-semibold text-black/90">사회</span>와 <span className="font-semibold text-black/90">교육</span>,  
-            <span className="font-semibold text-black/90">산업</span>의  <span className="font-semibold text-black/90">확장</span>으로 이어진다고 믿습니다.<br />
+            <span className="font-black text-black/90">세렌</span>은 AI를 도구가 아닌 <span className="font-black text-black/90">구조 설계의 언어</span>로 사용하는 브랜드입니다.<br />
+            <span className="font-black text-black/90">아이디어</span>를 떠올리는 데서 멈추지 않고,<br />
+            <span className="font-black text-black/90">실행 가능한 시스템</span>으로 만들고 <span className="font-black text-black/90">지속 가능한 사업 구조</span>하는로 연결합니다.<br />
             <br />
-            우리는 AI를 활용해 <span className="font-semibold text-black/90">아이디어</span>가 <span className="font-semibold text-black/90">콘텐츠</span>가 되고, 
-            콘텐츠가 <span className="font-semibold text-black/90">교육과 지식재산</span>으로 확장되며,
-            다시 <span className="font-semibold text-black/90">하나의 브랜드</span>가 되는 흐름을 설계합니다.<br />
-            <br />
-            세렌의 <span className="font-black text-[#1040DD]">비전</span>은 <span className="font-semibold text-black/90">혼자서도 지속 가능한 창작과 성장이 가능한 구조</span>를 만드는 것입니다.
+            혼자서도<span className="font-semibold text-black/90">브랜드</span>를 만들 수 있는 시대<br />
+            <span className="font-black text-[#1040DD]">세렌</span>은 그 방법을  <span className="font-black text-black/90">직접 설계</span>하고  <span className="font-black text-black/90">실험</span>합니다.
             </p>
             </div>
           </div>

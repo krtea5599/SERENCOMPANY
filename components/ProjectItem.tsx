@@ -48,6 +48,41 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project, index }) => {
           >
             상세보기 →
           </button>
+          <div className="flex flex-wrap gap-4 mb-10">
+            {project.links?.kyobo && (
+              <a 
+                href={project.links.kyobo} 
+                target="_blank" 
+                rel="noreferrer"
+                className="text-[10px] font-black uppercase tracking-widest text-[#3B82F6] border border-[#3B82F6] px-3 py-2 hover:bg-[#3B82F6] hover:text-white transition-all"
+              >
+                《AI특허 출원혁명》 도서 구매하기  → 
+              </a>
+            )}
+            
+            {project.links?.store && (
+              <a 
+                href={project.links.store} 
+                target="_blank" 
+                rel="noreferrer"
+                className="text-[10px] font-black uppercase tracking-widest text-[#16a34a] border border-[#16a34a] px-3 py-2 hover:bg-[#16a34a] hover:text-white transition-all"
+              >
+                네이버 스토어 →
+              </a>
+            )}
+
+            {project.links?.web && (
+              <a 
+                href={project.links.web} 
+                 target="_blank" 
+                rel="noreferrer"
+                className="text-[10px] font-black uppercase tracking-widest text-[#3B82F6] border border-[#3B82F6] px-3 py-2 hover:bg-[#3B82F6] hover:text-white transition-all"
+              >
+               《전자전》 도서 구매하기  →
+              </a>
+            )}
+          </div>
+
           <div className="flex flex-wrap gap-2">
             {project.tags?.map(tag => (
               <span key={tag} className="text-[10px] font-bold uppercase bg-black text-white px-3 py-1.5">

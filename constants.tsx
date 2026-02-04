@@ -18,6 +18,8 @@ export const PILLARS: Project[] = [
     ],
     image: "https://i.ifh.cc/5hNobA.jpg",
     tags: ["AI Publishing", "eBook", "ISBN System"]
+    links: {
+      web: "https://serenbooks.co.kr/18/?idx=31"
   },
   {
     id: 2,
@@ -32,6 +34,8 @@ export const PILLARS: Project[] = [
     ],
     image: "https://i.ifh.cc/lcmmLb.jpg",
     tags: ["Patent AI", "KIPRIS API", "Legal Tech"]
+     links: {
+      kyobo: "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011932990"
   },
   {
     id: 3,

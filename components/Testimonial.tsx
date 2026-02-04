@@ -17,7 +17,7 @@ const Testimonial: React.FC = () => {
         </h2>
 
         <div className="flex flex-col items-center">
-          <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-[##3B82F6] shadow-xl">
+          <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-[#3B82F6] shadow-xl">
             <img 
               src="https://raw.githubusercontent.com/krtea5599/SEREN-Portfolio/91d191264acf69070659dafe564266d495643ead/%EC%9D%B4%EC%A0%95%ED%95%9C%20%ED%94%84%EB%A1%9C%ED%95%84.jpg" 
               alt="(주)세렌" 
