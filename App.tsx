@@ -53,7 +53,7 @@ const App: React.FC = () => {
             <p className="text-lg md:text-2xl font-normal leading-relaxed text-black/80 tracking-tight">
             <span className="font-black text-[#1040DD]">세렌</span>은 개인의  <span className="font-semibold text-black/90">성장</span>이 곧 
             <span className="font-semibold text-black/90">사회</span>와 <span className="font-semibold text-black/90">교육</span>,  
-            <span className="font-semibold text-black/90">산업</span>의  <span className="font-semibold text-black/90">확장</span>으로 이어진닫고 믿습니다.<br />
+            <span className="font-semibold text-black/90">산업</span>의  <span className="font-semibold text-black/90">확장</span>으로 이어진다고 믿습니다.<br />
             <br />
             우리는 AI를 활용해 <span className="font-semibold text-black/90">아이디어</span>가 <span className="font-semibold text-black/90">콘텐츠</span>가 되고, 
             콘텐츠가 <span className="font-semibold text-black/90">교육과 지식재산</span>으로 확장되며,
